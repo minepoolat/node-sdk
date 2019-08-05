@@ -18,10 +18,10 @@ import extend = require('extend');
 import { stripTrailingSlash } from 'ibm-cloud-sdk-core';
 import { computeBasicAuthHeader, Icp4dTokenManagerV1 } from 'ibm-cloud-sdk-core/auth';
 import { readCredentialsFile } from 'ibm-cloud-sdk-core/lib/read-credentials-file';
-import { RequestWrapper } from 'ibm-cloud-sdk-core/lib/requestwrapper';
 import semver = require('semver');
 import vcapServices = require('vcap_services');
 import { IamTokenManagerV1 } from '../auth/iam-token-manager-v1';
+import { RequestWrapper } from './requestwrapper';
 
 // custom interfaces
 export interface HeaderOptions {
