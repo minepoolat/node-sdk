@@ -46,3 +46,5 @@ coverage.lcov
 *.tmp
 .pre-commit-config.yaml
 .secrets.baseline
+
+core-polyfill-temp/**/*.js

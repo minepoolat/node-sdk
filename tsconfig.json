@@ -57,6 +57,7 @@
   },
   "include": [
     "./lib/*.ts",
+    "./core-polyfill-temp/**/*ts",
     "./assistant/*.ts",
     "./natural-language-classifier/*.ts",
     "./language-translator/*.ts",

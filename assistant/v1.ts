@@ -16,7 +16,8 @@
 
 import * as extend from 'extend';
 import { IncomingHttpHeaders, OutgoingHttpHeaders } from 'http';
-import { BaseService, getMissingParams } from 'ibm-cloud-sdk-core';
+import { getMissingParams } from 'ibm-cloud-sdk-core';
+import { BaseService } from '../core-polyfill-temp';
 import { getSdkHeaders } from '../lib/common';
 
 /**
